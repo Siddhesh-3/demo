@@ -1,0 +1,322 @@
+
+
+
+.header {
+  background: #DD5E89;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  opacity:0.6;
+  color: black;
+
+
+}
+.bg {
+  background-image: url("/bgg.jpg");
+  
+  text-align: center;
+  top: 0em;
+  left: 0em;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: fixed;
+}
+
+
+.img {
+  margin: auto;
+  text-align: center;
+  padding-top: 0em;
+}
+.img2 {
+  margin-top: 10px ;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.banner-text{
+  width: 40%;
+  background-color: black;
+  color: beige;
+  text-align: center;
+  margin-top: 1em;
+  margin: auto;
+  border-radius: 2em;
+  padding: 2em;
+  opacity: 0.8;
+}	
+.banner-text h2 {
+  padding-top: 0em;
+}
+.banner-text img {
+  padding-top: 1em;
+  height: 50%;
+}
+.banner-text hr {
+  width: 60%;
+  border-top: beige dotted;
+  margin: auto;
+}
+.banner-text p{
+  font-size: medium;
+}
+
+.home-icon {
+  font-size: xx-large;
+  color:blue;
+  
+}
+.git {
+  padding-right: 1em;
+  
+}
+
+.li {
+  padding-right: 1em;
+}
+.so {
+  padding-right: 1em;
+}
+.insta {
+  padding-right: 1em;
+
+}
+
+.twitter {
+  padding-right: 1em;
+
+}
+/* home page ended here */
+
+/* about page start */
+.bg-about {
+  background: #DD5E89;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  display: fixed;
+  opacity:0.5 ;
+  text-align: center;
+  top: 0em;
+  left: 0em;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/* about page ended here */
+
+/* resume page starts from here */
+.resume-1 {
+  padding-top: 2em;
+  width: 100%;
+  height: 100%;
+
+}
+
+.resume-grid {
+background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: left;
+  width: 75%;
+  height: 100%;
+  padding-left: 2em;
+  border-radius: 2em;
+  justify-content: center;
+  padding-left: 1em;
+  
+}
+
+.resume-grid hr {
+  width: 75%;
+  stroke-width: 1em;
+}
+
+.resume-grid img {
+  position: absolute;
+  justify-content: flex-start; 
+  top: 4em;
+  right: 15em;
+  height: 210px;
+  width: 170px;
+}
+.resume-grid h3 {
+   padding-top:1em ; 
+   padding-left: 3em;
+}
+
+.resume-grid h4 {
+  padding-left: 2em;
+}
+
+.resume-main {
+  padding-top: 1em;
+  text-align: center;
+  padding-bottom: 2em;
+  font-style: initial;
+}
+.resume-main h3{
+  padding-right: 3em;
+}
+.resume-main h4 {
+  padding-right: 2em;
+}
+/* Progress bar */
+#myProgress1 {
+  width: 50%;
+  background-color: #ddd;
+  
+}
+
+#myBar1 {
+  width: 69%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  padding-left: 2em;
+}
+#myProgress2 {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myBar2 {
+  width: 73%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+#myProgress3 {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myBar3 {
+  width: 65%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+#myProgress4 {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myBar4 {
+  width: 40%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+#myProgress5 {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myBar5 {
+  width:65%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+#myProgress6 {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myBar6 {
+  width: 52%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+/* progress bar making ended here */
+/* resume page ended here */
+
+/* project page start */
+    .project1 img {
+      height: 190px;
+      width: 290px;
+      position: fixed;
+      text-align: center;
+      padding-top: 2em;
+    }
+
+    .project1 h5 {
+      color:black ;
+    }
+/* projectn page ended here */
+
+/* contact page start */
+
+.contact-menu {
+  
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding-top: 3em;
+
+  
+
+}
+
+.contact-grid {
+  background-color:black;
+  text-align: center;
+  width: 75%;
+  height: 70%;
+  border-radius: 2em;
+  opacity: 0.85;
+  color: #DD5E89;
+}
+.bitmoji {
+  
+  width: -10px;
+  height: 23px;
+  justify-content: center;
+  padding-bottom: 2em;
+  
+}
+
+.contact-grid img {
+  padding-top: 2em;
+  text-align: left;
+}
+.contact-grid hr{
+  border-top: white dotted;
+  width: 80%;
+
+}
+.contact-grid td {
+  padding-top: 2em;
+  font-size: x-large;
+  font-style: inherit;
+  text-align: left;
+}
+/* Contact page ended */
